@@ -1,12 +1,12 @@
 import React from 'react';
 
-const Food = ({ id, item, complete, foodClick }) => (
+const Food = ({ id, price, item, complete, foodClick }) => (
   <h3>
     <li
       style={ complete ? { ...styles.food, ...styles.complete } : styles.food}
       onClick={ () => foodClick(id) }
     >
-      { item }  
+      { item } - ${ price }
     </li>
   </h3>
 );

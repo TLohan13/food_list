@@ -6,9 +6,9 @@ import FoodList from './components/foods/FoodList';
 class App extends Component {
   state = {
     foods: [
-      { id: 1, item: "bananas", price: 1, complete: false},
+      { id: 1, item: "bananas", price: 4, complete: false},
       { id: 2, item: "bread", price: 2, complete: false},
-      { id: 3, item: "eggs", price: 3, complete: false}
+      { id: 3, item: "eggs", price: 2, complete: false}
     ]
   }
 

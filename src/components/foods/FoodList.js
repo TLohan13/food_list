@@ -1,7 +1,7 @@
 import React from 'react';
 import Food from './Food';
 
-const FoodList = ({ items, item, foodClick }) => (
+const FoodList = ({ items, price, item, foodClick }) => (
   <div>
     <h2>{item}</h2>
     <ul>
